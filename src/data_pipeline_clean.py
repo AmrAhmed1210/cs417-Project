@@ -6,9 +6,9 @@ import random
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.utils.class_weight import compute_class_weight
 
-TRAIN_DIR = "../data/New Plant Diseases Dataset(Augmented)/train"
-VAL_DIR = "../data/New Plant Diseases Dataset(Augmented)/valid"
-TEST_DIR = "../data/New Plant Diseases Dataset(Augmented)/test"
+TRAIN_DIR = "data/New Plant Diseases Dataset(Augmented)/train"
+VAL_DIR = "data/New Plant Diseases Dataset(Augmented)/valid"
+TEST_DIR = "data/New Plant Diseases Dataset(Augmented)/test"
 IMG_SIZE = (128, 128)
 BATCH_SIZE = 32
 SEED = 42
